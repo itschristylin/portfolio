@@ -21,7 +21,7 @@ body {
   height: 100vh;
   background: #373737 url('https://i.imgur.com/O9UnXvC.jpg') no-repeat center center / cover;
   color: #ccc;
-  overflow:hidden;
+  overflow: scroll;
 }
 
 .container {
@@ -85,8 +85,6 @@ body {
 	height: 50px;
 }	
 nav {
-    position: fixed;
-    width: 100%;
     line-height: 50px;
 }
 
@@ -95,12 +93,10 @@ nav ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
     overflow: hidden;
-    color: #fff;
-    padding: 0;
+    color: #373737;
     text-align: right;
     margin: 0;
     padding-right: 40px;
-    transition: 1s;
 }
 
 nav.black ul {
@@ -117,9 +113,6 @@ nav ul li a {
     color: #fff;
     font-size: 16px;
 }
-
-
-
 
 /*關於我*/
 .about {
