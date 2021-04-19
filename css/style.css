@@ -118,12 +118,12 @@ nav ul li a {
 .about {
 	padding: 150px 0;
 	background-color: #f4f4f4;
-  height: 100%;
 }
 
 .about img {
     margin-top: 30px;
     border-radius: 100%;
+    margin-bottom: 50px;
     
 }
 .about h1{
@@ -157,7 +157,6 @@ nav ul li a {
 /*作品*/
 .portfolio{
   background-color: #f4f4f4;
-  height: 100%;
   padding-top: 50px;
 }
 .portfolio h1{
@@ -252,60 +251,7 @@ nav ul li a {
   background-color: #f4f4f4;
   height: 100%;
 }
-.single-skill-content{
-  padding-top: 30px;
-}
 
-.single-progress-txt {
-    display: flex;
-}
-.single-progress-txt h3 {
-    width: 10%;
-    color: #373737;
-    position: relative;
-    top: 6px;
-    left: 20px;
-}
-.barWrapper {
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.progress {
-    border-radius:3px;
-    overflow: visible;
-    height:8px;
-    margin-top: 15px;
-    width: 85%;
-    margin-bottom: 37px;
-}
-.progress::-webkit-progress-value {
-   border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
-}
-.tooltip{
-   position:relative;
-   float:right;
-}
-.tooltip > .tooltip-inner {
-   background-color: transparent;
-   padding: 1px 5px;
-   font-weight: 500;
-   font-size: 12px;
-   border-radius: 0;
-}
-.popOver + .tooltip > .tooltip-arrow {
-   border-left: 6px solid transparent;
-   border-right: 6px solid transparent;
-   border-top: 6px solid #fff;
-   bottom: -1px;
-   transform: translateX(-50%);
-   margin-left: 0;
-}
 
 
 /*聯絡我*/
@@ -374,6 +320,7 @@ footer {
 
 footer p {
 	line-height: 39px;
+  color: #fff;
 }
 
 
